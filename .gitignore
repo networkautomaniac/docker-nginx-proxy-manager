@@ -1,0 +1,14 @@
+# IGNORE FILES IN ROOT/:
+.env
+
+# IGNORE FILES IN DATA/:
+data/*
+
+# DO NOT IGNORE FILES IN DATA/:
+!data/.gitkeep
+
+# IGNORE FILES IN LETSENCRYPT/:
+letsencrypt/*
+
+# DO NOT IGNORE FILES IN LETSENCRYPT/:
+!letsencrypt/.gitkeep
